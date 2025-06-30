@@ -1,0 +1,37 @@
+
+
+.contact-container {
+   padding: 2rem;
+  margin: auto;
+  text-align: center;
+  background-color: rgb(200 193 174 / 27%);
+  height: calc(100vh - 3rem); /* 3rem accounts for Navbar height (1rem padding top + 1rem padding bottom + approx line height) */
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.contact-title {
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+  color: #2c3e50;
+}
+
+.contact-info {
+  font-size: 1.1rem;
+  margin: 1rem 0;
+  color: #444;
+}
+
+.contact-link {
+  color: #021e3c;
+  text-decoration:burlywood;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}

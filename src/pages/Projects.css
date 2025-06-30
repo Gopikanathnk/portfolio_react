@@ -1,0 +1,44 @@
+
+
+.projects-container {
+   padding: 2rem;
+  margin: auto;
+  text-align: center;
+  background-color: rgb(200 193 174 / 27%);
+  height: calc(100vh - 3rem); /* 3rem accounts for Navbar height (1rem padding top + 1rem padding bottom + approx line height) */
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  
+}
+
+.projects-title {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+}
+
+.project-list {
+  list-style: none;
+  padding: 0;
+}
+
+.project-item {
+  background-color: #c6baba85;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: left;
+  transition: background-color 0.3s ease;
+}
+
+.project-item:hover {
+  background-color: #e2e6ea;
+}
+
+.project-name {
+  font-weight: bold;
+  color: #007bff;
+}
